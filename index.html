@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="simple-adaptive-slider.css">
+    <script defer src="simple-adaptive-slider.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var slider = new SimpleAdaptiveSlider('.slider', {
+            autoplay: true,
+            interval: 4000,
+            swipe: true,
+          });
+        });
+      </script>
+    <title>услуги на дом.ру</title>
+</head>
+<body>
+    <header>
+        <a class="logo">услуги на дом.ру</a>
+        <div class="menuHeader">
+            <a href="#"><span class="menuH">популярные</span></a>
+            <a href="otzivi.html"><span class="menuH">отзывы</span></a>
+            <input type="text" class="hederI" value="Поиск..">
+        </div>
+    </header>
+    <main>   
+        <div class="slider">
+            <div class="slider__wrapper">
+            <div class="slider__items">
+                <div class="slider__item">
+                    <a href="remont.html"><img src="images/Group 4.png" class="card"></a>
+                    
+                </div>
+                <div class="slider__item">
+                    <a href="myj.html"><img src="images/Group 5.png" class="card"></a>
+                </div>
+                <div class="slider__item">
+                    <a href="elektro.html"><img src="images/Group 6.png" class="card"></a>
+                </div>
+                <div class="slider__item">
+                    <a href="nyanya.html"><img src="images/Group 7.png" class="card"></a>
+                </div>
+                <div class="slider__item">
+                    <a href="miniMarket.html"><img src="images/Group 8.png" class="card"></a>
+                </div>
+                <div class="slider__item">
+                    <a href="kurer.html"><img src="images/Group 9.png" class="card"></a>
+                </div>
+                
+            </div>
+            </div>
+            <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+            <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+        </div>
+        
+        <p class="pZ">подать заявку на добавление вашей услуги можно <a class="Sdes" href="#">сдесь.</a></p>
+        <script type="text/javascript">
+            cackle_widget = window.cackle_widget || [];
+            cackle_widget.push({widget: 'ReviewRating', id: 77900, def: '{{=it.stars}}', html: '<span class="stars"></span>'});
+            (function() {
+                var mc = document.createElement('script');
+                mc.type = 'text/javascript';
+                mc.async = true;
+                mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+            })();
+        </script>
+    </main> 
+    <footer>
+        2021 г. Все права защищены.
+        <a href="#">Help</a>
+    </footer>
+</body>
+</html>
